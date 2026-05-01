@@ -4,11 +4,16 @@
   "description": "A flashcard study application optimized and tested with Mocha, Cypress, Parcel, and Gulp.",
   "type": "module",
   "license": "MIT",
-  "scripts": {
-    "gulp": "gulp"
-  },
+"scripts": {
+  "gulp": "gulp",
+  "start": "parcel index.html --port 1234",
+  "build": "parcel build index.html",
+  "test": "npx mocha",
+  "cypress": "npx cypress run"
+},
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@parcel/resolver-default": "^2.16.4",
     "chai": "^6.2.2",
     "cypress": "^15.14.2",
     "eslint": "^10.2.1",

@@ -9,9 +9,11 @@ body {
 }
 
 main {
+  box-sizing: border-box;
+  flex: 1;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  min-width: 0;
   padding: 5%;
   display: flex;
 }

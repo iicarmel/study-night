@@ -1,6 +1,6 @@
 describe("Forms", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:59415");
+    cy.visit("http://localhost:1234");
     cy.get("#cardSetPage").click();
   });
 

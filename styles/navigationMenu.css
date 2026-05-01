@@ -1,7 +1,10 @@
 /* Navigation styling */
 header {
   width: 100px;
+  min-width: 100px;
   cursor: pointer;
+  position: relative;
+  z-index: 10;
 }
 
 header h1,
